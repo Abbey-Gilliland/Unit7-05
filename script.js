@@ -11,9 +11,9 @@ function whatTime () {
   if (age <= 0) {
     // This is for when the input for age is something that won't work.
     alert('ERROR: age must be higher than 0')
-  } else if (age < 18 && day != 'Sunday' && day != 'Saturday') {
+  } else if (age < 18 && day !== 'Sunday' && day !== 'Saturday') {
     document.getElementById('time').innerHTML = 'Time for school!'
-  } else if (age >= 18 && day != 'Sunday' && day != 'Saturday') {
+  } else if (age >= 18 && day !== 'Sunday' && day !== 'Saturday') {
     document.getElementById('time').innerHTML = 'Time for work!'
   } else {
     document.getElementById('time').innerHTML = 'Time to relax for the weekend!'
