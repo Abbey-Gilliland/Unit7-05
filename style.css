@@ -1,0 +1,12 @@
+.time {
+  text-align: center;
+  font-size: 125%;
+  color: slateblue;
+}
+
+.input {
+  font-size: 125%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
